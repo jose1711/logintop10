@@ -591,7 +591,6 @@ int main(int argc, char *argv[])
 	}
 
 	setlocale(LC_ALL, l);
-	bindtextdomain("logintop10", "/usr/local/share/locale");
 	textdomain("logintop10");
 
 	printf(_("logintop10, (c) 2003 by folkert@vanheusden.com\n"));
@@ -605,7 +604,7 @@ int main(int argc, char *argv[])
 	if (help)
 	{
 		printf(_("Usage: %s -i wtmp -o fileout.html [-l locale] [-r]\n"), argv[0]);
-		printf(_("Example: logintop10 -i /var/log/wtmp -o ~/www/logintop10.html -l nl_NL\n"));
+		printf(_("Example: logintop10 -i /var/log/wtmp -o ~/www/logintop10.html -l nl_NL.utf8\n"));
 		return 1;
 	}
 
