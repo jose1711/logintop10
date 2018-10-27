@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# $Id: logintop10-fr.po,v 1.4 2003/01/29 17:51:08 folkert Exp folkert $
+# $Log: logintop10-fr.po,v $
+# Revision 1.4  2003/01/29 17:51:08  folkert
+# *** empty log message ***
+#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.4\n"
+"POT-Creation-Date: 2003-01-29 18:53+0100\n"
+"PO-Revision-Date: 2003-01-29 18:53+0100\n"
+"Last-Translator: Georg Neis <georg@fli4l.de>\n"
+"Language-Team: n.a. <null@vanheusden.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: logintop10.c:48
+#, c-format
+msgid "resize: Cannot (re-)allocate %d bytes of memory\n"
+msgstr "resize: Kann %d Bytes des Speichers nicht zuweisen\n"
+
+#: logintop10.c:166
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: logintop10.c:166
+msgid "Monday"
+msgstr "Montag"
+
+#: logintop10.c:166
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: logintop10.c:166
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: logintop10.c:166
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: logintop10.c:166
+msgid "Friday"
+msgstr "Freitag"
+
+#: logintop10.c:166
+msgid "Saturday"
+msgstr "Samstag"
+
+#: logintop10.c:167
+msgid "January"
+msgstr "Januar"
+
+#: logintop10.c:167
+msgid "February"
+msgstr "Februar"
+
+#: logintop10.c:167
+msgid "March"
+msgstr "März"
+
+#: logintop10.c:167
+msgid "April"
+msgstr "April"
+
+#: logintop10.c:167
+msgid "May"
+msgstr "Mai"
+
+#: logintop10.c:167
+msgid "June"
+msgstr " Juni"
+
+#: logintop10.c:167
+msgid "July"
+msgstr "Juli"
+
+#: logintop10.c:167
+msgid "August"
+msgstr "August"
+
+#: logintop10.c:167
+msgid "September"
+msgstr "September"
+
+#: logintop10.c:167
+msgid "October"
+msgstr "Oktober"
+
+#: logintop10.c:167
+msgid "November"
+msgstr "November"
+
+#: logintop10.c:167
+msgid "December"
+msgstr "Dezember"
+
+#: logintop10.c:181
+msgid "<H1>Login/logout statistics</H1>\n"
+msgstr "<H1>Login/Logout Statistiken</H1>\n"
+
+#: logintop10.c:183
+msgid "<H2>Overall data</H2>\n"
+msgstr "<H2>Allgemeine Daten</H2>\n"
+
+#: logintop10.c:185
+#, c-format
+msgid "<LI>Number of records: %d\n"
+msgstr "<LI>Anzahl der Datensätze: %d\n"
+
+#: logintop10.c:315
+#, c-format
+msgid "<LI>Min. duration: %ld\n"
+msgstr "<LI>Minimale Session-Dauer: %ld\n"
+
+#: logintop10.c:316
+#, c-format
+msgid "<LI>Max. duration: %ld\n"
+msgstr "<LI>Maximale Session-Dauer: %ld\n"
+
+#: logintop10.c:317
+#, c-format
+msgid "<LI>Average duration: %ld\n"
+msgstr "<LI>Durchschn. Session-Dauer: %ld\n"
+
+#: logintop10.c:320
+msgid "<H2>Top 10 Login Frequency</H2>\n"
+msgstr "<H2>Top 10 der häufigsten Logins</H2>\n"
+
+#: logintop10.c:322
+msgid "<TR><TD></TD><TD><B>Username:</B></TD><TD><B>Count</B></TD></TR>\n"
+msgstr "<TR><TD></TD><TD><B>Benutzer</B></TD><TD><B>Anzahl</B></TD></TR>\n"
+
+#: logintop10.c:330
+msgid "<H2>Top 10 Login Duration</H2>\n"
+msgstr "<H2>Top 10 der längsten Session-Dauer</H2>\n"
+
+#: logintop10.c:332
+msgid "<TR><TD></TD><TD><B>Username:</B></TD><TD><B>Duration</B></TD></TR>\n"
+msgstr "<TR><TD></TD><TD><B>Benutzer</B></TD><TD><B>Dauer</B></TD></TR>\n"
+
+#: logintop10.c:340
+msgid "<H2>Busiest day of the Week</H2>\n"
+msgstr "<H2>Belebtester Tag der Woche</H2>\n"
+
+#: logintop10.c:356 logintop10.c:412
+#, c-format
+msgid "%s (%ld logins)\n"
+msgstr "%s (%ld Logins)\n"
+
+#: logintop10.c:357
+#, c-format
+msgid "<LI>Most quiet day: %s (%ld logins)\n"
+msgstr "<LI>Ruhigster Tag: %s (%ld Logins)\n"
+
+#: logintop10.c:360 logintop10.c:388
+msgid "<TR><TD><B>Day</B></TD><TD><B>Number of logins</B></TD></TR>\n"
+msgstr "<TR><TD><B>Tag</B></TD><TD><B>Anzahl der Logins</B></TD></TR>\n"
+
+#: logintop10.c:368
+msgid "<H2>Busiest day of the Month</H2>\n"
+msgstr "<H2>Belebtester Tag des Monats</H2>\n"
+
+#: logintop10.c:384
+#, c-format
+msgid "Day %ld (%ld logins)\n"
+msgstr "Tag %ld (%ld Logins)\n"
+
+#: logintop10.c:385
+#, c-format
+msgid "<LI>Most quiet day: %ld (%ld logins)\n"
+msgstr "<LI>Ruhigster Tag: %ld (%ld Logins)\n"
+
+#: logintop10.c:396
+msgid "<H2>Busiest Month</H2>\n"
+msgstr "<H2>Belebtester Monat</H2>\n"
+
+#: logintop10.c:413
+#, c-format
+msgid "<LI>Most quiet month: %s (%ld logins)\n"
+msgstr "<LI>Ruhigster Monat: %s (%ld Logins)\n"
+
+#: logintop10.c:416
+msgid "<TR><TD><B>Month</B></TD><TD><B>Number of logins</B></TD></TR>\n"
+msgstr "<TR><TD><B>Monat</B></TD><TD><B>Anzahl der Logins</B></TD></TR>\n"
+
+#: logintop10.c:424
+msgid "<H2>Per user statistics</H2>\n"
+msgstr "<H2>Statistiken pro Benutzer</H2>\n"
+
+#: logintop10.c:426
+msgid ""
+"<TR><TD><B>Username:</B></TD><TD><B>Number of logins:</B></TD><TD><B>Min. "
+"duration</B></TD><TD><B>Max. duration</B></TD><TD><B>Average Duration</B></"
+"TD><TD><B>Av. login hour</B></TD><TD><B>Av. logout hour</B></"
+"TD><TD><B>Favorite day</B></TD></TR>\n"
+msgstr ""
+"<TR><TD><B>Benutzer</B></TD><TD><B>Anzahl der Logins</B></TD><TD><B>Minimale "
+"Session-Dauer</B></TD><TD><B>Maximale Session-Dauer</B></TD><TD><B>Durchschn. Session-Dauer</B></"
+"TD><TD><B>Durchschn. Login-Stunde</B></TD><TD><B>Durchschn. Logout-Stunde</B></"
+"TD><TD><B>Lieblingstag</B></TD></TR>\n"
+
+#: logintop10.c:445
+#, c-format
+msgid "<TD>%s (%ld logins)</TD></TR>\n"
+msgstr "<TD>%s (%ld Logins)</TD></TR>\n"
+
+#: logintop10.c:452
+msgid "<H2>Raw Data</H2>\n"
+msgstr "<H2>Rohe Daten</H2>\n"
+
+#: logintop10.c:454
+msgid ""
+"<TR><TD><B>Username</B></TD><TD><B>Logged in at:</B></TD><TD><B>Duration:</"
+"B></TD></TR>\n"
+msgstr ""
+"<TR><TD><B>Benutzer</B></TD><TD><B>Eingelogged um</B></TD><TD><B>Dauer</"
+"B></TD></TR>\n"
+
+#: logintop10.c:464
+#, c-format
+msgid ""
+"<FONT SIZE=-1>Created with <A HREF=\"http://www.vanheusden.com/logintop10/"
+"\">logintop10</A> %s (written by <A HREF=\"mailto:folkert@vanheusden.com"
+"\">folkert@vanheusden.com</A>).</FONT>\n"
+msgstr ""
+"<FONT SIZE=-1>Créé avec <A HREF=\"http://www.vanheusden.com/logintop10/"
+"\">logintop10</A> %s (écrit par <A HREF=\"mailto:folkert@vanheusden.com"
+"\">folkert@vanheusden.com</A>).</FONT>\n"
+
+#: logintop10.c:477
+#, c-format
+msgid ""
+"Version: %s\n"
+"\n"
+msgstr ""
+"Version: %s\n"
+"\n"
+
+#: logintop10.c:481
+#, c-format
+msgid "Usage: %s -i wtmp -o fileout.html [-l locale] [-r]\n"
+msgstr "Gebrauch: %s -i wtmp -o bestanduit.html [-l language/ID-PaysID] [-r]\n"
+
+#: logintop10.c:482
+msgid "Example: logintop10 -i /var/log/wtmp -o ~/www/logintop10.html -l nl_NL\n"
+msgstr "Beispiel: logintop10 -i /var/log/wtmp -o ~/www/logintop10.html -l nl_NL\n"
+
+#: logintop10.c:488
+#, c-format
+msgid "Problem loading data.\n"
+msgstr "Problem beim Laden der Daten.\n"
+
+#: logintop10.c:494
+#, c-format
+msgid "Problem saving data to %s.\n"
+msgstr "Problem beim Speichern der Daten nach %s.\n"
+
+msgid "Problem loading data from %s.\n"
+msgstr "Problem beim Laden der Daten von %s.\n"

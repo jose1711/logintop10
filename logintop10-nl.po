@@ -1,0 +1,266 @@
+# Taal-bestand van logintop10
+# Copyright (C) 2003 folkert@vanheusden.com
+#
+# $Id: logintop10-nl.po,v 1.1 2003/01/28 18:34:50 folkert Exp folkert $
+# $Log: logintop10-nl.po,v $
+# Revision 1.1  2003/01/28 18:34:50  folkert
+# Initial revision
+#
+# 
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.3\n"
+"POT-Creation-Date: 2003-01-27 22:29+0100\n"
+"PO-Revision-Date: 2003-01-27 22:29+0100\n"
+"Last-Translator: Folkert van Heusden <folkert@vanheusden.com>\n"
+"Language-Team: Nederlands <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: logintop10.c:48
+#, c-format
+msgid "resize: Cannot (re-)allocate %d bytes of memory\n"
+msgstr "resize: kan niet %d bytes geheugen vastleggen\n"
+
+#: logintop10.c:166
+msgid "Sunday"
+msgstr "zondag"
+
+#: logintop10.c:166
+msgid "Monday"
+msgstr "maandag"
+
+#: logintop10.c:166
+msgid "Tuesday"
+msgstr "dinsdag"
+
+#: logintop10.c:166
+msgid "Wednesday"
+msgstr "woensdag"
+
+#: logintop10.c:166
+msgid "Thursday"
+msgstr "donderdag"
+
+#: logintop10.c:166
+msgid "Friday"
+msgstr "vrijdag"
+
+#: logintop10.c:166
+msgid "Saturday"
+msgstr "zaterdag"
+
+#: logintop10.c:167
+msgid "January"
+msgstr "januari"
+
+#: logintop10.c:167
+msgid "February"
+msgstr "februari"
+
+#: logintop10.c:167
+msgid "March"
+msgstr "maart"
+
+#: logintop10.c:167
+msgid "April"
+msgstr "april"
+
+#: logintop10.c:167
+msgid "May"
+msgstr "mei"
+
+#: logintop10.c:167
+msgid "June"
+msgstr "juni"
+
+#: logintop10.c:167
+msgid "July"
+msgstr "juli"
+
+#: logintop10.c:167
+msgid "August"
+msgstr "augustus"
+
+#: logintop10.c:167
+msgid "September"
+msgstr "september"
+
+#: logintop10.c:167
+msgid "October"
+msgstr "oktober"
+
+#: logintop10.c:167
+msgid "November"
+msgstr "november"
+
+#: logintop10.c:167
+msgid "December"
+msgstr "december"
+
+#: logintop10.c:181
+msgid "<H1>Login/logout statistics</H1>\n"
+msgstr "<H1>Login/logout statistieken</H1>\n"
+
+#: logintop10.c:183
+msgid "<H2>Overall data</H2>\n"
+msgstr "<H2>Globale data</H2>\n"
+
+#: logintop10.c:185
+#, c-format
+msgid "<LI>Number of records: %d\n"
+msgstr "<LI>Aantal velden in invoerbestand: %d\n"
+
+#: logintop10.c:315
+#, c-format
+msgid "<LI>Min. duration: %ld\n"
+msgstr "<LI>Min. tijdsduur: %ld\n"
+
+#: logintop10.c:316
+#, c-format
+msgid "<LI>Max. duration: %ld\n"
+msgstr "<LI>Max. tijdsduur: %ld\n"
+
+#: logintop10.c:317
+#, c-format
+msgid "<LI>Average duration: %ld\n"
+msgstr "<LI>Gemiddelde tijdsduur: %ld\n"
+
+#: logintop10.c:320
+msgid "<H2>Top 10 Login Frequency</H2>\n"
+msgstr "<H2>Top 10 Login frequentie</H2>\n"
+
+#: logintop10.c:322
+msgid "<TR><TD></TD><TD><B>Username:</B></TD><TD><B>Count</B></TD></TR>\n"
+msgstr "<TR><TD></TD><TD><B>Gebruikersnaam:</B></TD><TD><B>Aantal</B></TD></TR>\n"
+
+#: logintop10.c:330
+msgid "<H2>Top 10 Login Duration</H2>\n"
+msgstr "<H2>Top 10 Login tijdsduur</H2>\n"
+
+#: logintop10.c:332
+msgid "<TR><TD></TD><TD><B>Username:</B></TD><TD><B>Duration</B></TD></TR>\n"
+msgstr "<TR><TD></TD><TD><B>Gebruikersnaam:</B></TD><TD><B>Tijdsduur</B></TD></TR>\n"
+
+#: logintop10.c:340
+msgid "<H2>Busiest day of the Week</H2>\n"
+msgstr "<H2>Drukste dag van de week</H2>\n"
+
+#: logintop10.c:356 logintop10.c:412
+#, c-format
+msgid "%s (%ld logins)\n"
+msgstr "%s (%ld logins)\n"
+
+#: logintop10.c:357
+#, c-format
+msgid "<LI>Most quiet day: %s (%ld logins)\n"
+msgstr "<LI>Rustigste dag: %s (%ld logins)\n"
+
+#: logintop10.c:360 logintop10.c:388
+msgid "<TR><TD><B>Day</B></TD><TD><B>Number of logins</B></TD></TR>\n"
+msgstr "<TR><TD><B>Dag</B></TD><TD><B>Aantal logins</B></TD></TR>\n"
+
+#: logintop10.c:368
+msgid "<H2>Busiest day of the Month</H2>\n"
+msgstr "<H2>Drukste dag van de maand</H2>\n"
+
+#: logintop10.c:384
+#, c-format
+msgid "Day %ld (%ld logins)\n"
+msgstr "Dag %ld (%ld logins)\n"
+
+#: logintop10.c:385
+#, c-format
+msgid "<LI>Most quiet day: %ld (%ld logins)\n"
+msgstr "<LI>Rustigste dag: %ld (%ld logins)\n"
+
+#: logintop10.c:396
+msgid "<H2>Busiest Month</H2>\n"
+msgstr "<H2>Drukste maand</H2>\n"
+
+#: logintop10.c:413
+#, c-format
+msgid "<LI>Most quiet month: %s (%ld logins)\n"
+msgstr "<LI>Rustigste maand: %s (%ld logins)\n"
+
+#: logintop10.c:416
+msgid "<TR><TD><B>Month</B></TD><TD><B>Number of logins</B></TD></TR>\n"
+msgstr "<TR><TD><B>Maand</B></TD><TD><B>Aantal logins</B></TD></TR>\n"
+
+#: logintop10.c:424
+msgid "<H2>Per user statistics</H2>\n"
+msgstr "<H2>Statistieken per gebruiker</H2>\n"
+
+#: logintop10.c:426
+msgid ""
+"<TR><TD><B>Username:</B></TD><TD><B>Number of logins:</B></TD><TD><B>Min. "
+"duration</B></TD><TD><B>Max. duration</B></TD><TD><B>Average Duration</B></"
+"TD><TD><B>Av. login hour</B></TD><TD><B>Av. logout hour</B></"
+"TD><TD><B>Favorite day</B></TD></TR>\n"
+msgstr ""
+"<TR><TD><B>Gebruikersnaam:</B></TD><TD><B>Aantal logins:</B></TD><TD><B>Min. "
+"tijdsduur</B></TD><TD><B>Max. tijdsduur</B></TD><TD><B>Gemiddelde tijdsduur</B></"
+"TD><TD><B>Gem. login uur</B></TD><TD><B>Gem. logout uur</B></"
+"TD><TD><B>Favoriete dag</B></TD></TR>\n"
+
+#: logintop10.c:445
+#, c-format
+msgid "<TD>%s (%ld logins)</TD></TR>\n"
+msgstr "<TD>%s (%ld logins)</TD></TR>\n"
+
+#: logintop10.c:452
+msgid "<H2>Raw Data</H2>\n"
+msgstr "<H2>Platte data</H2>\n"
+
+#: logintop10.c:454
+msgid ""
+"<TR><TD><B>Username</B></TD><TD><B>Logged in at:</B></TD><TD><B>Duration:</"
+"B></TD></TR>\n"
+msgstr ""
+"<TR><TD><B>Gebruikersnaam</B></TD><TD><B>Ingelogt op:</B></TD><TD><B>Tijdsduur:</"
+"B></TD></TR>\n"
+
+#: logintop10.c:464
+#, c-format
+msgid ""
+"<FONT SIZE=-1>Created with <A HREF=\"http://www.vanheusden.com/logintop10/"
+"\">logintop10</A> %s (written by <A HREF=\"mailto:folkert@vanheusden.com"
+"\">folkert@vanheusden.com</A>).</FONT>\n"
+msgstr ""
+"<FONT SIZE=-1>Gemaakt met <A HREF=\"http://www.vanheusden.com/logintop10/"
+"\">logintop10</A> %s (geschreven door <A HREF=\"mailto:folkert@vanheusden.com"
+"\">folkert@vanheusden.com</A>).</FONT>\n"
+
+#: logintop10.c:477
+#, c-format
+msgid ""
+"Version: %s\n"
+"\n"
+msgstr ""
+"Versie: %s\n"
+"\n"
+
+#: logintop10.c:481
+#, c-format
+msgid "Usage: %s -i wtmp -o fileout.html [-l locale] [-r]\n"
+msgstr "Gebruik: %s -i wtmp -o bestanduit.html [-l taal/land-ID]\n"
+
+#: logintop10.c:482
+msgid "Example: logintop10 -i /var/log/wtmp -o ~/www/logintop10.html -l nl_NL\n"
+msgstr "Voorbeeld: logintop10 -i /var/log/wtmp -o ~/www/logintop10.html -l nl_NL\n"
+
+#: logintop10.c:488
+#, c-format
+msgid "Problem loading data.\n"
+msgstr "Probleem bij inladen data.\n"
+
+#: logintop10.c:494
+#, c-format
+msgid "Problem saving data to %s.\n"
+msgstr "Probleem bij opslaan van data naar %s.\n"
+
+msgid "Problem loading data from %s.\n"
+msgstr "Probleem bij laden van data uit %s.\n"

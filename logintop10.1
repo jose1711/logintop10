@@ -1,0 +1,53 @@
+.\" Copyright Folkert van Heusden, 2003
+.\" $Id$
+.\"
+.\" This file may be copied under the conditions described
+.\" in the LDP GENERAL PUBLIC LICENSE, Version 1, September 1998
+.\" that should have been distributed together with this file.
+.\"
+.TH LOGINTOP10 1 2003-02 "Logintop10"
+.SH NAME
+logintop10 \- generate wtmp statistics
+.SH SYNOPSIS
+.BI "logintop10 [" options "]
+.sp
+options:
+.BI "[\-iorl]"
+.sp
+.SH DESCRIPTION
+The program
+.B logintop10
+creates several "Top 10" lists from wtmp (usally in /var/log/) statistics.
+Lists include login frequency, login duration, busiest day of the week,
+busiest day of the month, and busiest month. It outputs a formatted HTML
+file.
+.PP
+.SH OPTIONS
+.TP
+.B "\-i"
+Input file. You can have multiple
+.BI "-i " file
+parameters.
+.TP
+.B "\-o"
+File to write to.
+.TP
+.B "\-r"
+Also output raw list. Adds a list of logins and durations.
+.TP
+.B "\-l"
+Locale. Specifies the language for the output.
+
+.SH BUGS
+None. This program is totally bug-free.
+
+.SH "SEE ALSO"
+.BR http://www.vanheusden.com/logintop10/
+
+.SH NOTES
+This page describes
+.B logintop10
+as found in the logintop10-1.4 package;
+other versions may differ slightly.
+Mail corrections and additions to folkert@vanheusden.com.
+Report bugs in the program to folkert@vanheusden.com.

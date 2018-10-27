@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# $Id: logintop10.po,v 1.1 2003/01/28 18:34:50 folkert Exp folkert $
+# $Log: logintop10.po,v $
+# Revision 1.1  2003/01/28 18:34:50  folkert
+# Initial revision
+#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.4\n"
+"POT-Creation-Date: 2003-01-27 22:29+0100\n"
+"PO-Revision-Date: 2003-02-01 23:43+0100\n"
+"Last-Translator: Folkert van Heusden <folkert@vanheusden.com>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: logintop10.c:48
+#, c-format
+msgid "resize: Cannot (re-)allocate %d bytes of memory\n"
+msgstr ""
+
+#: logintop10.c:166
+msgid "Sunday"
+msgstr "Al A7ad"
+
+#: logintop10.c:166
+msgid "Monday"
+msgstr "Al Ithnain"
+
+#: logintop10.c:166
+msgid "Tuesday"
+msgstr "A Thulathaa"
+
+#: logintop10.c:166
+msgid "Wednesday"
+msgstr "Al Arbi3a"
+
+#: logintop10.c:166
+msgid "Thursday"
+msgstr "Al Gamies"
+
+#: logintop10.c:166
+msgid "Friday"
+msgstr "Al Jumu3a"
+
+#: logintop10.c:166
+msgid "Saturday"
+msgstr "A Sabt"
+
+#: logintop10.c:167
+msgid "January"
+msgstr "Janajer"
+
+#: logintop10.c:167
+msgid "February"
+msgstr "Febrajer"
+
+#: logintop10.c:167
+msgid "March"
+msgstr "Maris"
+
+#: logintop10.c:167
+msgid "April"
+msgstr "Abril"
+
+#: logintop10.c:167
+msgid "May"
+msgstr "Mayu"
+
+#: logintop10.c:167
+msgid "June"
+msgstr "Junio"
+
+#: logintop10.c:167
+msgid "July"
+msgstr "Julio"
+
+#: logintop10.c:167
+msgid "August"
+msgstr "Agustus"
+
+#: logintop10.c:167
+msgid "September"
+msgstr "Schutambir"
+
+#: logintop10.c:167
+msgid "October"
+msgstr "Oktubar"
+
+#: logintop10.c:167
+msgid "November"
+msgstr "Novambir"
+
+#: logintop10.c:167
+msgid "December"
+msgstr "Dojanbir"
+
+#: logintop10.c:181
+msgid "<H1>Login/logout statistics</H1>\n"
+msgstr "<H1>Dogul/Guruj I7saiat</H1>\n"
+
+#: logintop10.c:183
+msgid "<H2>Overall data</H2>\n"
+msgstr "<H2>Kul Al ma3lumat</H2>\n"
+
+#: logintop10.c:185
+#, c-format
+msgid "<LI>Number of records: %d\n"
+msgstr "<LI>3adad al arqam: %d\n"
+
+#: logintop10.c:315
+#, c-format
+msgid "<LI>Min. duration: %ld\n"
+msgstr "<LI>Al modda sagira: %ld\n"
+
+#: logintop10.c:316
+#, c-format
+msgid "<LI>Max. duration: %ld\n"
+msgstr "<LI>Al modda al kabira: %ld\n"
+
+#: logintop10.c:317
+#, c-format
+msgid "<LI>Average duration: %ld\n"
+msgstr "<LI>Al modda al mutawassita: %ld\n"
+
+#: logintop10.c:320
+msgid "<H2>Top 10 Login Frequency</H2>\n"
+msgstr "<H2>ihsa iat al awael al 3aschr</H2>\n"
+
+#: logintop10.c:322
+msgid "<TR><TD></TD><TD><B>Username:</B></TD><TD><B>Count</B></TD></TR>\n"
+msgstr "<TR><TD></TD><TD><B>Al Ism:</B></TD><TD><B>Al 3adad</B></TD></TR>\n"
+
+#: logintop10.c:330
+msgid "<H2>Top 10 Login Duration</H2>\n"
+msgstr "<H2>Al awael al 3aschr fi moddat e dogul</H2>\n"
+
+#: logintop10.c:332
+msgid "<TR><TD></TD><TD><B>Username:</B></TD><TD><B>Duration</B></TD></TR>\n"
+msgstr "<TR><TD></TD><TD><B>Al Ism</B></TD><TD><B>Al modda</B></TD></TR>\n"
+
+#: logintop10.c:340
+msgid "<H2>Busiest day of the Week</H2>\n"
+msgstr "<H2>Al joum al akthar shughl fil osbou3</H2>\n"
+
+#: logintop10.c:356 logintop10.c:412
+#, c-format
+msgid "%s (%ld logins)\n"
+msgstr "%s (%ld dogul)\n"
+
+#: logintop10.c:357
+#, c-format
+msgid "<LI>Most quiet day: %s (%ld logins)\n"
+msgstr "<LI>: Al joum al akthar sukut: %s (%ld dogul)\n"
+
+#: logintop10.c:360 logintop10.c:388
+msgid "<TR><TD><B>Day</B></TD><TD><B>Number of logins</B></TD></TR>\n"
+msgstr "<TR><TD><B>Al joum</B></TD><TD><B>3adad a dogul</B></TD></TR>\n"
+
+#: logintop10.c:368
+msgid "<H2>Busiest day of the Month</H2>\n"
+msgstr "<H2>Al joum al akthar shugl fi shahr</H2>\n"
+
+#: logintop10.c:384
+#, c-format
+msgid "Day %ld (%ld logins)\n"
+msgstr "Al joum %ld (%ld dogul)\n"
+
+#: logintop10.c:385
+#, c-format
+msgid "<LI>Most quiet day: %ld (%ld logins)\n"
+msgstr "<LI>Al joum al akthar sukut: %ld (%ld dogul)\n"
+
+#: logintop10.c:396
+msgid "<H2>Busiest Month</H2>\n"
+msgstr "<H2>A shahr al akthar shugl</H2>\n"
+
+#: logintop10.c:413
+#, c-format
+msgid "<LI>Most quiet month: %s (%ld logins)\n"
+msgstr "<LI>A shahr al akthar sukut: %s (%ld dogul)\n"
+
+#: logintop10.c:416
+msgid "<TR><TD><B>Month</B></TD><TD><B>Number of logins</B></TD></TR>\n"
+msgstr "<TR><TD><B>A shahr</B></TD><TD><B>3adad a dogul</B></TD></TR>\n"
+
+#: logintop10.c:424
+msgid "<H2>Per user statistics</H2>\n"
+msgstr "<H2>ihsa iat li kolli l mosta3mil</H2>\n"
+
+#: logintop10.c:426
+msgid ""
+"<TR><TD><B>Username:</B></TD><TD><B>Number of logins:</B></TD><TD><B>Min. "
+"duration</B></TD><TD><B>Max. duration</B></TD><TD><B>Average Duration</B></"
+"TD><TD><B>Av. login hour</B></TD><TD><B>Av. logout hour</B></"
+"TD><TD><B>Favorite day</B></TD></TR>\n"
+msgstr ""
+
+#: logintop10.c:445
+#, c-format
+msgid "<TD>%s (%ld logins)</TD></TR>\n"
+msgstr "<TD>%s (%ld dogul)</TD></TR>\n"
+
+#: logintop10.c:452
+msgid "<H2>Raw Data</H2>\n"
+msgstr ""
+
+#: logintop10.c:454
+msgid ""
+"<TR><TD><B>Username</B></TD><TD><B>Logged in at:</B></TD><TD><B>Duration:</"
+"B></TD></TR>\n"
+msgstr ""
+
+#: logintop10.c:464
+#, c-format
+msgid ""
+"<FONT SIZE=-1>Created with <A HREF=\"http://www.vanheusden.com/logintop10/"
+"\">logintop10</A> %s (written by <A HREF=\"mailto:folkert@vanheusden.com"
+"\">folkert@vanheusden.com</A>).</FONT>\n"
+msgstr ""
+
+#: logintop10.c:477
+#, c-format
+msgid ""
+"Version: %s\n"
+"\n"
+msgstr ""
+
+#: logintop10.c:481
+#, c-format
+msgid "Usage: %s -i wtmp -o fileout.html [-l locale]\n"
+msgstr ""
+
+#: logintop10.c:482
+msgid "Example: logintop10 -i /var/log/wtmp -o ~/www/logintop10.html -l nl_NL\n"
+msgstr ""
+
+#: logintop10.c:488
+#, c-format
+msgid "Problem loading data from %s.\n"
+msgstr "Hunaka muschkila fi jam3 al ma3lumat min %s.\n"
+
+#: logintop10.c:494
+#, c-format
+msgid "Problem saving data to %s.\n"
+msgstr "Hunaka muschkila fi hifth alma3lumat ila %s.\n"
