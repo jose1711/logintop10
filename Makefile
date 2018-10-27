@@ -24,7 +24,7 @@ LDFLAGS=
 VERSION=1.9
 
 OBJS=logintop10.o io.o val.o mem.o
-LANGUAGE_FILES=logintop10-nl.mo logintop10-fr.mo logintop10-es.mo logintop10-ar.mo logintop10-de.mo
+LANGUAGE_FILES=logintop10-nl.mo logintop10-fr.mo logintop10-es.mo logintop10-ar.mo logintop10-de.mo logintop10-sk.mo
 
 all: logintop10
 
@@ -43,6 +43,9 @@ logintop10-nl.mo: logintop10-nl.po
 logintop10-de.mo: logintop10-de.po
 	msgfmt -c -f --statistics -v -o logintop10-de.mo logintop10-de.po
 
+logintop10-sk.mo: logintop10-de.po
+	msgfmt -c -f --statistics -v -o logintop10-sk.mo logintop10-sk.po
+
 logintop10: $(OBJS) $(LANGUAGE_FILES)
 	$(CC) -Wall -W $(OBJS) $(LDFLAGS) $(LDFLAGSf) -o logintop10
 	strip logintop10
@@ -56,6 +59,7 @@ install: logintop10 $(LANGUAGE_FILES)
 	install -D logintop10-es.mo $(LOCALE_PATH)/es/LC_MESSAGES/logintop10.mo
 	install -D logintop10-ar.mo $(LOCALE_PATH)/ar/LC_MESSAGES/logintop10.mo
 	install -D logintop10-de.mo $(LOCALE_PATH)/de/LC_MESSAGES/logintop10.mo
+	install -D logintop10-sk.mo $(LOCALE_PATH)/sk/LC_MESSAGES/logintop10.mo
 
 uninstall: clean
 	rm -f /usr/local/bin/logintop10
@@ -65,6 +69,7 @@ uninstall: clean
 	rm -f $(LOCALE_PATH)/es/LC_MESSAGES/logintop10.mo
 	rm -f $(LOCALE_PATH)/ar/LC_MESSAGES/logintop10.mo
 	rm -f $(LOCALE_PATH)/de/LC_MESSAGES/logintop10.mo
+	rm -f $(LOCALE_PATH)/sk/LC_MESSAGES/logintop10.mo
 
 clean:
 	rm -f $(OBJS) logintop10 core $(LANGUAGE_FILES) logintop10-$(VERSION).tgz
